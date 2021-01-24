@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reviwe</title>
+</head>
+
+<body>
+    <header>
+        <h1> Whish List</h1>
+    </header>
+    <main>
+        <div class="form">
+            <form id="formList" action="">
+                <label for="name"> Item Name </label>
+                <input type="text" id="name" name="name">
+                <br>
+                <br>
+                <label for="categories"> Categories </label>
+                <select name="categories" id="catogories">
+                    <option value="mobilePhone">Mobile Phones</option>
+                    <option value="laptops">Laptops</option>
+                    <option value="tablets">Tablets</option>
+                    <option value="cars">Cars</option>
+                </select>
+                <br>
+                <br>
+                <label for="quantity"> Quantity </label>
+                <input type="number" id="quantity" name="quantity">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="table">
+            <table id="all-whishList"></table>
+            <p id="total"></p>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
